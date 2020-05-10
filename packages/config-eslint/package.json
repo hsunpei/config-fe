@@ -1,0 +1,29 @@
+{
+  "name": "@garfieldduck/config-eslint",
+  "version": "0.0.1",
+  "description": "Configurations for eslint",
+  "author": "Mika Wang <garfieldduck@gmail.com>",
+  "homepage": "https://github.com/garfieldduck/config-fe#readme",
+  "license": "MIT",
+  "main": "lib/config-eslint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garfieldduck/config-fe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/garfieldduck/config-fe/issues"
+  }
+}
