@@ -1,0 +1,9 @@
+.cache/
+.DS_Store
+node_modules
+coverage/
+out/
+lib/
+dist/
+*-debug.log
+*-error.log
