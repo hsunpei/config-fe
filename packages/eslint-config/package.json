@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garfieldduck/config-fe.git"
+    "url": "git@github.com:garfieldduck/config-fe.git"
   },
   "bugs": {
     "url": "https://github.com/garfieldduck/config-fe/issues"
