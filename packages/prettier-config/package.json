@@ -1,0 +1,18 @@
+{
+  "name": "@garfieldduck/prettier-config",
+  "version": "1.0.0",
+  "description": "Configurations for prettier",
+  "homepage": "https://github.com/garfieldduck/config-fe#readme",
+  "license": "MIT",
+  "main": "lib/prettier-config.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:garfieldduck/config-fe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garfieldduck/config-fe/issues"
+  }
+}
