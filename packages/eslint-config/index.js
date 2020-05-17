@@ -62,7 +62,12 @@ module.exports = {
     // ======================================================
     // Typescript rules
     // ======================================================
-    "@typescript-eslint/explicit-function-return-type": "off"
+    "@typescript-eslint/explicit-function-return-type": "off",
+
+    // ======================================================
+    // A11y rules
+    // ======================================================
+    "jsx-a11y/accessible-emoji": "warn"
   },
   settings: {
     react: {
