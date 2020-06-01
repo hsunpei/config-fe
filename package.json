@@ -10,7 +10,7 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "release": "lerna publish from-package --yes",
+    "release": "lerna publish patch --skip-git --yes",
     "release:beta": "lerna publish --no-push --dist-tag=prerelease",
     "release:canary": "lerna publish --canary --yes",
     "release:interactive": "lerna publish"
