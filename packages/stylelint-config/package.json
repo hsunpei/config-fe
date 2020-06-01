@@ -1,6 +1,6 @@
 {
   "name": "@garfieldduck/stylelint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Configurations for stylelint",
   "homepage": "https://github.com/garfieldduck/config-fe#readme",
   "license": "MIT",
