@@ -1,0 +1,24 @@
+{
+  "name": "@garfieldduck/stylelint-config",
+  "version": "0.0.1",
+  "description": "Configurations for stylelint",
+  "homepage": "https://github.com/garfieldduck/config-fe#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:garfieldduck/config-fe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garfieldduck/config-fe/issues"
+  },
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  }
+}
