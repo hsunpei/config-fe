@@ -19,5 +19,9 @@
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "devDependencies": {
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-prettier": "^1.1.2"
   }
 }
