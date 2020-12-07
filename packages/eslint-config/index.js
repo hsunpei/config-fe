@@ -10,7 +10,7 @@ module.exports = {
     // uses eslint-config-prettier to disable ESLint rules
     "prettier/@typescript-eslint",
     // displays prettier errors as ESLint errors
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
   ],
   plugins: ["@typescript-eslint", "react-hooks"],
   parserOptions: {
@@ -19,8 +19,8 @@ module.exports = {
     // allows for the use of imports
     sourceType: "module",
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   rules: {
     // ======================================================
@@ -32,12 +32,31 @@ module.exports = {
       "error",
       "ignorePackages",
       {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-   ],
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+      },
+    ],
+    "import/order": [
+      "error",
+      {
+        groups: ["builtin", "external", "internal"],
+        pathGroups: [
+          {
+            pattern: "react",
+            group: "external",
+            position: "before",
+          },
+        ],
+        pathGroupsExcludedImportTypes: ["react"],
+        "newlines-between": "always",
+        alphabetize: {
+          order: "asc",
+          caseInsensitive: true,
+        },
+      },
+    ],
 
     // ======================================================
     // React rules
@@ -45,16 +64,16 @@ module.exports = {
     "react/jsx-filename-extension": [
       "warn",
       {
-        extensions: [".jsx", ".tsx"]
-      }
+        extensions: [".jsx", ".tsx"],
+      },
     ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-props-no-spreading": [
       "error",
       {
-        custom: "ignore"
-      }
+        custom: "ignore",
+      },
     ],
     "react/prop-types": "off",
     "react/display-name": "off",
@@ -67,14 +86,14 @@ module.exports = {
     // ======================================================
     // A11y rules
     // ======================================================
-    "jsx-a11y/accessible-emoji": "warn"
+    "jsx-a11y/accessible-emoji": "warn",
   },
   settings: {
     react: {
-      version: "detect"
-    }
+      version: "detect",
+    },
   },
   env: {
-    browser: true
-  }
+    browser: true,
+  },
 };
