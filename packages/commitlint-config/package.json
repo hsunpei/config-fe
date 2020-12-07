@@ -1,6 +1,6 @@
 {
   "name": "@garfieldduck/commitlint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Configurations for commit-lint",
   "homepage": "https://github.com/garfieldduck/config-fe#readme",
   "license": "MIT",
