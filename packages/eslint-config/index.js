@@ -6,6 +6,7 @@ module.exports = {
     "plugin:import/typescript",
     // recommended rules from the @typescript-eslint/eslint-plugin
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:mdx/recommended",
     // uses eslint-config-prettier to disable ESLint rules
     "prettier/@typescript-eslint",
