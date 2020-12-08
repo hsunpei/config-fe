@@ -1,19 +1,20 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
-    "airbnb",
-    "plugin:react/recommended",
-    "plugin:import/typescript",
     // recommended rules from the @typescript-eslint/eslint-plugin
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:import/typescript",
     "plugin:mdx/recommended",
     // uses eslint-config-prettier to disable ESLint rules
     "prettier/@typescript-eslint",
     // displays prettier errors as ESLint errors
     "plugin:prettier/recommended",
+    "plugin:json/recommended",
   ],
-  plugins: ["@typescript-eslint", "react-hooks"],
+  plugins: ["@typescript-eslint", "react-hooks", "json", "import"],
   parserOptions: {
     // allows for the parsing of modern ECMAScript features
     ecmaVersion: 2018,
