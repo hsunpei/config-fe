@@ -1,20 +1,21 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
+    "next/core-web-vitals",
     // recommended rules from the @typescript-eslint/eslint-plugin
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "airbnb",
     "plugin:react/recommended",
-    "plugin:import/typescript",
     "plugin:mdx/recommended",
     // uses eslint-config-prettier to disable ESLint rules
-    "prettier/@typescript-eslint",
+    "prettier",
     // displays prettier errors as ESLint errors
     "plugin:prettier/recommended",
     "plugin:json/recommended",
+    // React 17
+    "plugin:react/jsx-runtime",
   ],
-  plugins: ["@typescript-eslint", "react-hooks", "json", "import"],
+  plugins: ["@typescript-eslint", "json", "import"],
   parserOptions: {
     // allows for the parsing of modern ECMAScript features
     ecmaVersion: 2018,
@@ -25,6 +26,7 @@ module.exports = {
     },
   },
   rules: {
+    camelcase: "off",
     // ======================================================
     // Import rules
     // ======================================================
@@ -34,6 +36,7 @@ module.exports = {
       "error",
       "ignorePackages",
       {
+        "": "never",
         js: "never",
         jsx: "never",
         ts: "never",
@@ -77,13 +80,22 @@ module.exports = {
         custom: "ignore",
       },
     ],
-    "react/prop-types": "off",
     "react/display-name": "off",
+    // disable default props check
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
 
     // ======================================================
     // Typescript rules
     // ======================================================
     "@typescript-eslint/explicit-function-return-type": "off",
+
+    // turn of no-unused-vars and turn on @typescript-eslint/no-unused-vars
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
 
     // ======================================================
     // A11y rules
@@ -97,5 +109,6 @@ module.exports = {
   },
   env: {
     browser: true,
+    jest: true,
   },
 };
