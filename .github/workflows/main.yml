@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Required to retrieve git history
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
@@ -28,7 +30,7 @@ jobs:
       - name: Install packages
         run: |
           npm config set //npm.pkg.github.com/:_authToken=\${NPM_TOKEN}
-          yarn install --frozen-lockfile --ignore-engines
+          yarn install --frozen-lockfile
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Define ${CURRENT_VERSION}
