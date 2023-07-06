@@ -25,5 +25,10 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "volta": {
+    "node": "16.19.0",
+    "yarn": "3.2.4"
+  },
+  "packageManager": "yarn@3.2.4"
 }
