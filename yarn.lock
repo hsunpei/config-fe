@@ -414,58 +414,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@garfieldduck/commitlint-config@workspace:packages/commitlint-config":
-  version: 0.0.0-use.local
-  resolution: "@garfieldduck/commitlint-config@workspace:packages/commitlint-config"
-  dependencies:
-    commitlint-config-gitmoji: 2.3.1
-  languageName: unknown
-  linkType: soft
-
-"@garfieldduck/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@garfieldduck/eslint-config@workspace:packages/eslint-config"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^5.59.2
-    "@typescript-eslint/parser": ^5.49.2
-    eslint-config-airbnb: 19.0.4
-    eslint-config-next: 13.4.1
-    eslint-config-prettier: ^8.8.0
-    eslint-import-resolver-alias: ^1.1.2
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-json: ^3.1.0
-    eslint-plugin-mdx: ^2.1.0
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.32.2
-    lerna: ^3.22.1
-  languageName: unknown
-  linkType: soft
-
-"@garfieldduck/prettier-config@workspace:packages/prettier-config":
-  version: 0.0.0-use.local
-  resolution: "@garfieldduck/prettier-config@workspace:packages/prettier-config"
-  languageName: unknown
-  linkType: soft
-
-"@garfieldduck/stylelint-config@workspace:packages/stylelint-config":
-  version: 0.0.0-use.local
-  resolution: "@garfieldduck/stylelint-config@workspace:packages/stylelint-config"
-  dependencies:
-    stylelint-config-idiomatic-order: ^9.0.0
-    stylelint-config-prettier: ^9.0.4
-    stylelint-config-recommended: ^9.0.0
-    stylelint-config-styled-components: ^0.1.1
-    stylelint-prettier: ^2.0.0
-    stylelint-processor-styled-components: ^1.10.0
-  languageName: unknown
-  linkType: soft
-
-"@garfieldduck/typescript-config@workspace:packages/typescript-config":
-  version: 0.0.0-use.local
-  resolution: "@garfieldduck/typescript-config@workspace:packages/typescript-config"
-  languageName: unknown
-  linkType: soft
-
 "@gitmoji/commit-types@npm:1.1.5":
   version: 1.1.5
   resolution: "@gitmoji/commit-types@npm:1.1.5"
@@ -491,6 +439,58 @@ __metadata:
   checksum: 4e39d5828539c6bbe5fd18695c689a7909e0d5d41b1342acbe472fec5671f76c7e162c80baf6cc2d68481b9a67cb79f31b2a203cddc68b6138f761c1372ea74b
   languageName: node
   linkType: hard
+
+"@hsunpei/commitlint-config@workspace:packages/commitlint-config":
+  version: 0.0.0-use.local
+  resolution: "@hsunpei/commitlint-config@workspace:packages/commitlint-config"
+  dependencies:
+    commitlint-config-gitmoji: 2.3.1
+  languageName: unknown
+  linkType: soft
+
+"@hsunpei/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@hsunpei/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ^5.59.2
+    "@typescript-eslint/parser": ^5.49.2
+    eslint-config-airbnb: 19.0.4
+    eslint-config-next: 13.4.1
+    eslint-config-prettier: ^8.8.0
+    eslint-import-resolver-alias: ^1.1.2
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-json: ^3.1.0
+    eslint-plugin-mdx: ^2.1.0
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.32.2
+    lerna: ^3.22.1
+  languageName: unknown
+  linkType: soft
+
+"@hsunpei/prettier-config@workspace:packages/prettier-config":
+  version: 0.0.0-use.local
+  resolution: "@hsunpei/prettier-config@workspace:packages/prettier-config"
+  languageName: unknown
+  linkType: soft
+
+"@hsunpei/stylelint-config@workspace:packages/stylelint-config":
+  version: 0.0.0-use.local
+  resolution: "@hsunpei/stylelint-config@workspace:packages/stylelint-config"
+  dependencies:
+    stylelint-config-idiomatic-order: ^9.0.0
+    stylelint-config-prettier: ^9.0.4
+    stylelint-config-recommended: ^9.0.0
+    stylelint-config-styled-components: ^0.1.1
+    stylelint-prettier: ^2.0.0
+    stylelint-processor-styled-components: ^1.10.0
+  languageName: unknown
+  linkType: soft
+
+"@hsunpei/typescript-config@workspace:packages/typescript-config":
+  version: 0.0.0-use.local
+  resolution: "@hsunpei/typescript-config@workspace:packages/typescript-config"
+  languageName: unknown
+  linkType: soft
 
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
