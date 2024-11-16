@@ -11,11 +11,11 @@ module.exports = {
     "prettier",
     // displays prettier errors as ESLint errors
     "plugin:prettier/recommended",
-    "plugin:json/recommended",
+    "plugin:json/recommended-legacy",
     // React 17
     "plugin:react/jsx-runtime",
   ],
-  plugins: ["@typescript-eslint", "json", "import"],
+  plugins: ["@typescript-eslint", "import"],
   parserOptions: {
     // allows for the parsing of modern ECMAScript features
     ecmaVersion: 2018,
