@@ -7,8 +7,6 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:react/recommended",
     "plugin:mdx/recommended",
-    // uses eslint-config-prettier to disable ESLint rules
-    "prettier",
     // displays prettier errors as ESLint errors
     "plugin:prettier/recommended",
     "plugin:json/recommended-legacy",

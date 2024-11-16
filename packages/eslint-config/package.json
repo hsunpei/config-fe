@@ -1,6 +1,6 @@
 {
   "name": "@hsunpei/eslint-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Configurations for eslint",
   "homepage": "https://github.com/garfieldduck/config-fe#readme",
   "license": "MIT",
