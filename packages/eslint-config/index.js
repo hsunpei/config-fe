@@ -96,8 +96,6 @@ module.exports = {
 
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
-    "@typescript-eslint/consistent-type-exports": "error",
-    "@typescript-eslint/consistent-type-imports": "error",
 
     // ======================================================
     // A11y rules
