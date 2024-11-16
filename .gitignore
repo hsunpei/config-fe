@@ -8,3 +8,7 @@ dist/
 *-debug.log
 *-error.log
 /.yarn
+.env
+
+# editor
+.idea/
